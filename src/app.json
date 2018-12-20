@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/start/main",    
+    "pages/index/main",
+    "pages/shop/main",
+    "pages/user/main",
+    "pages/detail/main",
+    "pages/mecoupon/main",
+    "pages/bargaincoupon/main",
+    "pages/paycoupon/main",
+    "pages/order/main",
+    "pages/friendbargain/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5149",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "今日砍价推荐",
+        "iconPath": "static/img/shop.png",
+        "selectedIconPath": "static/img/shop1.png"
+      },
+      {
+        "pagePath": "pages/shop/main",
+        "text": "我的砍价",
+        "iconPath": "static/img/kanjia.png",
+        "selectedIconPath": "static/img/kanjia1.png"
+      },
+      {
+        "pagePath": "pages/user/main",
+        "text": "个人中心",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/user1.png"
+      }
+    ]
+  }
+  
+}
