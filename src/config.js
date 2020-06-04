@@ -3,7 +3,6 @@ import { create } from "domain";
 // 配置项
 
 // const host = 'http://localhost:5757'//本地
-const host = 'http://mp.xhjiayou.cn'//线上
 
 const config = {
   host,
